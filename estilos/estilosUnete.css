@@ -1,0 +1,21 @@
+body{
+	background: #343a40;  /* fallback for old browsers */
+	color:white;
+}
+
+#menu{
+	background-color: black;
+}
+
+#menu a{
+	color:orange;
+}
+
+#menu a:hover{
+	color:silver;
+}
+
+#copyright{
+	background-color: black;
+	color:orange;
+}

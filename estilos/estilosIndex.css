@@ -1,0 +1,195 @@
+body{
+	background: #343a40;  /* fallback for old browsers */
+	color:white;
+	padding:0;
+	margin:0;
+}
+
+.contenedor{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.columna{
+	width: 25%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	z-index: 1;
+
+}
+
+.contenido{
+	position: relative;
+	height: 100%;
+}
+
+.columna .contenido h1{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	width: 100%;
+	background: transparent;
+	text-align:center;
+	margin:0;
+	padding: 0;
+	color:rgba(255,255,255,.2);
+	font-size: 15em;
+}
+
+.contenido h2{
+	margin:0;
+	padding:0;
+	font-size: 30px;
+	color:#262626;
+}
+
+.contenido p{
+	color:#262626;
+	font-size: 18px;
+}
+
+.columna .bg{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: -1
+}
+
+.columna.active .bg.bg1{
+	background:url('../imagenes/web.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.columna.active .bg.bg2{
+	background:url('../imagenes/app.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.columna.active .bg.bg3{
+	background:url('../imagenes/soporte.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.columna.active .bg.bg4{
+	background:url('../imagenes/cursos.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.columna .caja{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	box-sizing: border-box;
+	padding:auto;
+	background:white;
+	text-align: center;
+	transition: 0.5s;
+	opacity: 0;
+
+} 
+
+.columna.active .caja{
+	opacity:1;
+}
+
+.carousel-caption{
+	bottom:40%;
+}
+
+.carousel-item img{
+	opacity: 0.5;
+}
+
+.carousel-item h2{
+	margin-bottom: 10px;
+}
+
+img{
+	height: 654px;
+}
+
+#menu{
+	background-color: black;
+}
+
+#menu a{
+	color:orange;
+}
+
+#menu a:hover{
+	color:silver;
+}
+
+.footer{
+	background-color: black
+}
+
+#copyright{
+	background-color: black;
+	color: orange;
+}
+
+
+
+i.fab.fa-whatsapp{
+	color: green;
+}
+
+i.fab.fa-whatsapp:hover{
+	opacity: 0.7;
+}
+
+i.fab.fa-instagram{
+	color: purple;
+}
+
+i.fab.fa-instagram:hover{
+	opacity: 0.7;
+}
+
+i.fab.fa-facebook{
+	color:#3578E5;
+}
+
+i.fab.fa-facebook:hover{
+	opacity: 0.7
+}
+
+#formulario{
+	background-color: black ;
+	border-radius: 10%;
+}
+
+#formulario:hover{
+	background-color: orange;
+	color:black; 
+}
+
+i.fas.fa-star{
+	color:orange;
+}
+
+i.fas.fa-star:hover{
+	color:black;
+}
+
+.footer a{
+	color:white;
+}

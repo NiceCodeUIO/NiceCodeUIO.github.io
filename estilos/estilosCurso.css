@@ -1,0 +1,42 @@
+body{
+	background: #343a40;  /* fallback for old browsers */
+	color:white;
+}
+
+#menu{
+	background-color: black;
+}
+
+#menu a{
+	color:orange;
+}
+
+#menu a:hover{
+	color:silver;
+}
+
+#copyright{
+	background-color: black;
+	color:orange;
+}
+
+.card{background-color: orange}
+
+.card-title{
+	background-color: orange;
+	color:black;
+	text-align: center;
+}
+
+.card-title:hover{
+	background-color: black;
+	color:orange;
+}
+
+.card:hover{
+	background-color: black;
+}
+.card-content{
+	background-color: black;
+	color: orange;
+}
